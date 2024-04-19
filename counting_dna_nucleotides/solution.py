@@ -8,13 +8,17 @@ def counting_dna(s: str) -> str:
     for digit in s:
         if digit == "A":
             count_a += 1
-        if digit == "C":
+        elif digit == "C":
             count_c += 1
-        if digit == "G":
+        elif digit == "G":
             count_g += 1
-        if digit == "T":
+        elif digit == "T":
             count_t += 1
     return f"{count_a} {count_c} {count_g} {count_t}"
 file_path = 'counting_dna_nucleotides/rosalind_dna (4).txt'
 rosalind_dna
 print(counting_dna(s))
+
+#optimal approach
+
+def 
