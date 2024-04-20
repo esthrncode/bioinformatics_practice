@@ -7,7 +7,7 @@ def read_dna(file_path: str) -> str:
     data = pd.read_csv(file_path, header=None, dtype=str)
     rosalind_dna = ''.join(data[0])
     return rosalind_dna
-def counting_dna(rosaline_dna: str) -> str:
+def counting_dna(rosaline_rna: str) -> str:
     count_a = 0
     count_c = 0
     count_g = 0
