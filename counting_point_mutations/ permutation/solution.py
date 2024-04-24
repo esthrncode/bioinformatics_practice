@@ -5,7 +5,7 @@ def all_permutations(n: int):
     total_arr = len(arr)
     return total_arr, arr
 
-n = 3
+n = 5
 total, permutations = all_permutations(n)
 print(total)
 for perm in permutations:
